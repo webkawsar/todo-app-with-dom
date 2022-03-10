@@ -1,33 +1,4 @@
 
-
-// document.getElementById("addTask").addEventListener("click", (event) => {
-
-//     event.preventDefault();
-//     const newTaskInput = document.getElementById("new-task");
-//     const items = document.getElementById("items");
-
-//     // <li class="item">
-//     //     <input type="checkbox" /><label>Task Name</label>
-//     // </li>
-
-//     const newInput = document.createElement('input');
-//     newInput.setAttribute('type', 'checkbox');
-//     const newLabel = document.createElement("label");
-//     newLabel.innerText = newTaskInput.value;
-
-//     const li = document.createElement("li");
-//     li.setAttribute("class", "item");
-
-//     li.appendChild(newInput);
-//     li.appendChild(newLabel);
-//     items.appendChild(li);
-//     newTaskInput.value = '';
-// })
-
-
-
-
-
 // lws way thinking
 const newTask = document.querySelector("#new-task");
 const form = document.querySelector("form");
